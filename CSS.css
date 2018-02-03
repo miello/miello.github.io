@@ -1,25 +1,52 @@
-@charset "utf-8";
-
 html{
   background: #F0F8FF url(image.jpg) no-repeat;
 }
-.down:link, .down:visited {
+
+.bgm{
+  background: #FFFFFF url(image.jpg) no-repeat;
+  opacity: 0.5;
+}
+
+.down:link{
     background-color: white;
     color: black;
     border: 2px solid green;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    position: inherit;
+    left : 50px;
+}
+
+ .down:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
     position: inherit;
     left : 50px;
 }
 .video{
+  
 }
 
 .down:hover{
   box-shadow: 1px 1px 5px #000000;
 }
 
+.down{
+  
+}
 
+.pre{
+  text-decoration: none;
+  color: #D2691E;
+  border: 1px solid red;
+}
 
+.tp{
+  left: auto;
+}
