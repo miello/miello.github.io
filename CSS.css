@@ -19,9 +19,18 @@ html{
 }
 .main{
   text-align: center;
-  
+
 }
 
+.head{
+  background-color: #B8860B;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+  font-family: Papyrus, fantasy;
+  color: #FFFFFF;
+}
 
 .loader {
   position: absolute;
