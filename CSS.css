@@ -1,23 +1,107 @@
-// JavaScript Document
-
-var time;
-
-function settime(){
-    time=setTimeout(load, 10000);
+html{
+  background: #F0F8FF url(image.jpg) no-repeat;
 }
 
-function enablevideo(){
-  document.getElementById("vid").hidden="";
-  document.getElementById("tp").hidden="hidden";
-  document.getElementById("pre").hidden="hidden";
-  document.getElementById("down").hidden="";
-  document.getElementById("post").hidden="";
+.bgm{
+  background: #FFFFFF no-repeat;
+  opacity: 0.5;
 }
 
-function load(){
-  document.getElementById("tp").hidden="";
-  document.getElementById("load").hidden="hidden";
-  document.getElementById("pre").hidden="";
-  document.getElementById("head").hidden="";
+.down:link{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    position: inherit;
+    left : 50px;
+}
+.main{
+  text-align: center;
+
+}
+
+.head{
+  background-color: #B8860B;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+  font-family: Papyrus, fantasy;
+  color: #FFFFFF;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: sp in 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.down{
+  text-align: center;
+}
+
+ .down:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    position: inherit;
+    left : 50px;
+}
+.video{
+  text-align: center;
+}
+
+.down:hover{
+  box-shadow: 1px 1px 5px #000000;
+}
+.pre:link{
+  text-decoration: none;
+  color: #D2691E;
+  border: 2px solid red;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.pre:visited{
+  text-decoration: none;
+  color: #D2691E;
+  border: 2px solid red;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  background-color: #FFFFFF;
+}
+
+.pre:hover{
+  box-shadow: 1px 1px 5px #000000;
 }
 
