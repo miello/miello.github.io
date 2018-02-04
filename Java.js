@@ -3,7 +3,7 @@
 var time;
 
 function settime(){
-    time=setTimeout(load, 3000);
+    time=setTimeout(load, 10000);
 }
 
 function enablevideo(){
@@ -11,11 +11,13 @@ function enablevideo(){
   document.getElementById("tp").hidden="hidden";
   document.getElementById("pre").hidden="hidden";
   document.getElementById("down").hidden="";
+  document.getElementById("post").hidden="";
 }
 
 function load(){
   document.getElementById("tp").hidden="";
   document.getElementById("load").hidden="hidden";
   document.getElementById("pre").hidden="";
+  document.getElementById("head").hidden="";
 }
 
