@@ -17,6 +17,11 @@ html{
     position: inherit;
     left : 50px;
 }
+.main{
+  text-align: center;
+  
+}
+
 
 .loader {
   position: absolute;
@@ -31,7 +36,7 @@ html{
   border-top: 16px solid #3498db;
   width: 120px;
   height: 120px;
-  -webkit-animation: spin 2s linear infinite;
+  -webkit-animation: sp in 2s linear infinite;
   animation: spin 2s linear infinite;
 }
 
@@ -68,15 +73,6 @@ html{
 .down:hover{
   box-shadow: 1px 1px 5px #000000;
 }
-
-.down{
-  text-align: center;
-}
-
-.pre{
-  text-align: center;
-}
-
 .pre:link{
   text-decoration: none;
   color: #D2691E;
@@ -100,7 +96,3 @@ html{
   box-shadow: 1px 1px 5px #000000;
 }
 
-.tp{
-  left: auto;
-  text-align: center;
-}
