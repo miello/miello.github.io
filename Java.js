@@ -1,5 +1,11 @@
-
 // JavaScript Document
+
+var time;
+
+function settime(){
+    time=setTimeout(load, 3000);
+}
+
 function enablevideo(){
   document.getElementById("vid").hidden="";
   document.getElementById("tp").hidden="hidden";
@@ -8,6 +14,8 @@ function enablevideo(){
 }
 
 function load(){
-  document.getElementById("vid").hidden="hidden";
-  document.getElementById("down").hidden="hidden";
+  document.getElementById("tp").hidden="";
+  document.getElementById("load").hidden="hidden";
+  document.getElementById("pre").hidden="";
 }
+
