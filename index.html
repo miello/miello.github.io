@@ -9,11 +9,10 @@
 <title>Online Learning</title>
 	</head>
 <body onload = load()>
-  <div class="bgm"></div>
-  <p id="tp">กรุณาทำแบบทดสอบก่อนเรียนก่อนเข้าสู่บทเรียน</p>
-  <a id="pre" class="pre" href="/pretest" target="_blank"  onclick = 'enablevideo()'>แบบทดสอบก่อนเรียน</a>
-  <iframe id="vid" class="video" src="https://drive.google.com/file/d/1_eEGXnqApacKEX-PGXldGllzyrIQR7KO/preview" width="640" height="480"></iframe>
-  <a id="down" class="down" href="/File.pdf" target="_blank">ดาวน์โหลดเอกสารประกอบการเรียน</a>
-
+  <div id="load" class="loader"></div>
+  <p id="tp" hidden="hidden">กรุณาทำแบบทดสอบก่อนเรียนก่อนเข้าสู่บทเรียน</p>
+  <a id="pre" class="pre" href="/pretest" target="_blank"  onclick = 'enablevideo()' hidden="hidden">แบบทดสอบก่อนเรียน</a>
+  <iframe id="vid" class="video" src="https://drive.google.com/file/d/1_eEGXnqApacKEX-PGXldGllzyrIQR7KO/preview" width="640" height="480" hidden="hidden"></iframe>
+  <a id="down" class="down" href="/File.pdf" target="_blank" hidden="hidden">ดาวน์โหลดเอกสารประกอบการเรียน</a>
   </body>
 </html>
